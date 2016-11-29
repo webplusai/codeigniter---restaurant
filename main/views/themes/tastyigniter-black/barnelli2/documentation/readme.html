@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="utf-8">
+	    <title>Barnelli Theme by yosoftware.com</title>
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta name="description" content="">
+	    <meta name="author" content="">
+	    <!-- Le styles -->
+	    <link href="css/bootstrap.css" rel="stylesheet">
+	    <style type="text/css">
+		    body {
+			    padding-top: 60px;
+			    padding-bottom: 40px;
+			    }
+		</style>
+		<link href="css/bootstrap-responsive.css" rel="stylesheet">
+		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<!-- Fav and touch icons -->
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+	    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+	    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+	   	<link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+	   	<link rel="shortcut icon" href="ico/favicon.png">
+	</head>
+
+	<body data-spy="scroll">
+		<div class="navbar navbar-inverse navbar-fixed-top">
+		    <div class="navbar-inner">
+			    <div class="container">
+				    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</a>
+					<a class="brand" href="#">BarnelliTheme</a>
+					<div class="nav-collapse collapse">
+						<ul class="nav">
+							<li><a href="#contain">Theme contains</a></li>
+							<!--<li><a href="#colors">Theme colors</a></li>-->
+							<li><a href="#classes">Pre-defined classes</a></li>
+							<li><a href="#disclaimer">Disclaimer</a></li>
+						</ul>
+					</div><!--/.nav-collapse -->
+				</div>
+			</div>
+    	</div>
+
+		<div class="container">
+
+			<div class="well well-small">
+				<h3>Thank You for purchasing our theme!</h3>
+				<p><strong>BarnelliTheme</strong> is a fully customizable html template designed with mobile devices in mind 
+					(it's fully responsive). </p>
+			</div>
+
+			<div class="row">
+				<div class="span12">
+					<h3 id="contain">What does our template contain</h3>
+					<hr>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="span6">
+					<h4>Designed html sections</h4>
+					<p>Our template comes up with 5 main sections, so all of your needs should be covered up. In <strong>BarnelliTheme</strong> you'll find files:</p>
+					<ul class="unstyled big">
+						<li><code>navbar.php</code> - main navigation</li>
+						<li><code>mobile_navigation.php</code> - mobile navigation</li>
+						<li><code>splash.php</code> - full screen splash with navigation</li>
+						<li><code>menu.php</code> - section with recent menu (choice of three types)</li>
+						<li><code>blog.php</code> - blog section</li>
+						<li><code>post.php</code> - single post view with sample comments & comment form</li>
+						<li><code>reservation.php</code> - section with reservation form</li>
+						<li><code>team.php</code> - team section view</li>
+						<li><code>restaurant.php</code> - widgets with the most important informations about restaurant</li>
+						<li><code>contact.php</code> - contact section with form &amp; embedded google maps</li>
+					</ul>
+				</div>
+				<div class="span6">
+					<h4>Contact Form</h4>
+					<p>In our package you'll also find working php version of contact form. All you need to do is write your e-mail in 
+						contact.php</p>
+
+					<hr>
+
+					<h4>Predefined html elements</h4>
+					<p>In our theme you'll find many predefined elements, designed to be as simple as possible when it comes to it's use.</p>
+
+					<dl>
+						<dt>We took care of:</dt>
+						<dd>h1-h6 headings</dd>
+						<dd>gallery markup</dd>
+						<dd>buttons</dd>
+						<dd>icon set</dd>
+						<dd>columns (grid)</dd>
+					</dl>
+
+					<p><span class="label label-success">Worth mentioning</span> Whats worth mentioning - we've incorporated <strong>Twitter's Bootstrap</strong> 
+						grid system into our theme, so making some custom layouts or changing the appereance of the ones already defined comes with ease
+						and is very fast to implement.</p>
+
+				</div>
+			</div>
+      
+      
+      <div class="row">
+      	<div class="span12">
+		      <div class="alert alert-info">
+			      <span class="label label-info">Good to know</span> For better editing experience we've hooked you up with template's <strong>php files</strong>, that are already sliced apart!
+			      So, for example, if you'd like to change something in the page header it will be way more effective to edit the
+			      <strong>index.php</strong> file to make changes to all other templates. We strongly recommend to use our php files if you want to spare yourself some time.
+		      </div>
+      	</div>
+      </div>
+      
+
+
+<hr>
+	  <div class="row">
+      	<div class="span12">
+	      	<h3 id="classes">Pre-defined classes for content elements</h3>
+	      	<hr>
+	      	<p>When placing some elements in the content remember to use some of our pre-defined classes 
+	      	and markup snippets in order to obtain the best possible look. Below you'll find some guidelines on how to
+	      	embed various content types.</p>
+      	</div>
+      </div> 
+<div class="row">
+	<div class="span6">
+		<h3>Navbar</h3>
+		<p>We included two different submenu styles. Try them by changing class in <strong>navbar.php</strong>. </p>
+		<pre>
+&lt;ul class="main-nav white-nav dotted-separator"&gt;
+	(..);
+&lt;/ul&gt;
+		  </pre>
+		<p>Change <strong>white-nav</strong> to <strong>gray-nav</strong> for second submenu. Class <strong>dotted-separator</strong> can be removed for clean navbar without any separate lines or it can be replaced by classes:</p>
+		<ul>
+			<li>single-separator</li>
+			<li>double-separator</li>
+		</ul>
+	</div>
+	
+	<div class="span6">
+		<h3>Scrollbars</h3>
+		<p>To customize scrollbars change variables in <strong>js/main.js</strong></p>
+		<pre>
+var scrollbarColor = '#111';
+var scrollbarColorMenu = '#fff';
+var scrollbarWidth = 4;</pre>
+		<h3>Colorbox</h3>
+		<p>
+			To disable <strong>Colorbox</strong> lightbox change variable in <strong>js/main.js</strong> to <strong>false</strong></p>
+			<pre>
+var enableMenuColorbox = true;</pre>
+	
+	</div>
+	
+</div>
+<div class="row">
+	<div class="span12">
+		<h3>Google Maps</h3>
+		<p>To change marker location on <strong>Google Map</strong>, provide your coordinates in <strong>js/main.js</strong>.</p>
+		<pre>
+var locationLatitude = -33.890367; 
+var locationLongitude = 151.19168;</pre>
+	</div>
+</div>
+
+	  <div class="row">
+      	<div class="span6">
+      		<h3>Icons</h3>
+      		<p>We felt tired sseing everywhere bootstrap icons over and over again, so we thought it would be nice to bring some fresh blood into the game.</p>
+      		<p>We're very proud to present you over 369 icons made by <a href="http://fortawesome.github.io/Font-Awesome/icons/">Font Awesome 4.0.3</a>.
+      		Those pretty, sharp icons will bring some life into even most boring parts of your website.</p>
+      		
+      		<p>In order to use icons on your website you have to specify an element with <code>class="icon [fa-name]"</code>.</p>
+      		
+      		<p>Below, we present you the complete icon list (class names):</p>
+
+      		<table class="table table-striped table-bordered">
+				<tr>
+					<td><code>fa-glass</code></td>
+					<td><code>fa-envelope-alt</code></td>
+					<td><code>fa-star-empty</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-th-large</code></td>
+					<td><code>fa-ok</code></td>
+					<td><code>fa-zoom-out</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-cog</code></td>
+					<td><code>fa-file-alt</code></td>
+					<td><code>fa-download-alt</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-inbox</code></td>
+					<td><code>fa-refresh</code></td>
+					<td><code>fa-flag</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-volume-down</code></td>
+					<td><code>fa-barcode</code></td>
+					<td><code>fa-book</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-camera</code></td>
+					<td><code>fa-italic</code></td>
+					<td><code>fa-align-left</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-align-justify</code></td>
+					<td><code>fa-indent-right</code></td>
+					<td><code>fa-pencil</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-tint</code></td>
+					<td><code>fa-check</code></td>
+					<td><code>fa-fast-backward</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-pause</code></td>
+					<td><code>fa-fast-forward</code></td>
+					<td><code>fa-chevron-left</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-minus-sign</code></td>
+					<td><code>fa-question-sign</code></td>
+					<td><code>fa-remove-circle</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-arrow-left</code></td>
+					<td><code>fa-arrow-down</code></td>
+					<td><code>fa-resize-small</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-asterisk</code></td>
+					<td><code>fa-leaf</code></td>
+					<td><code>fa-eye-close</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-calendar</code></td>
+					<td><code>fa-magnet</code></td>
+					<td><code>fa-retweet</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-folder-open</code></td>
+					<td><code>fa-bar-chart</code></td>
+					<td><code>fa-camera-retro</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-comments</code></td>
+					<td><code>fa-star-half</code></td>
+					<td><code>fa-linkedin-sign</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-signin</code></td>
+					<td><code>fa-upload-alt</code></td>
+					<td><code>fa-check-empty</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-twitter</code></td>
+					<td><code>fa-unlock</code></td>
+					<td><code>fa-hdd</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-certificate</code></td>
+					<td><code>fa-hand-up</code></td>
+					<td><code>fa-circle-arrow-right</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-globe</code></td>
+					<td><code>fa-filter</code></td>
+					<td><code>fa-group</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-beaker</code></td>
+					<td><code>fa-paper-clip</code></td>
+					<td><code>fa-reorder</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-strikethrough </code></td>
+					<td><code>fa-magic</code></td>
+					<td><code>fa-pinterest-sign</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-money</code></td>
+					<td><code>fa-caret-left</code></td>
+					<td><code>fa-sort</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-envelope</code></td>
+					<td><code>fa-legal</code></td>
+					<td><code>fa-comments-alt</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-umbrella</code></td>
+					<td><code>fa-exchange</code></td>
+					<td><code>fa-user-md</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-bell-alt</code></td>
+					<td><code>fa-file-text-alt</code></td>
+					<td><code>fa-ambulance</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-beer</code></td>
+					<td><code>fa-double-angle-left</code></td>
+					<td><code>fa-double-angle-down</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-angle-up</code></td>
+					<td><code>fa-laptop</code></td>
+					<td><code>fa-circle-blank</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-spinner</code></td>
+					<td><code>fa-github-alt</code></td>
+					<td><code>fa-expand-alt</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-frown</code></td>
+					<td><code>fa-keyboard</code></td>
+					<td><code>fa-terminal</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-mail-reply-all</code></td>
+					<td><code>fa-crop</code></td>
+					<td><code>fa-question</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-superscript</code></td>
+					<td><code>fa-puzzle-piece</code></td>
+					<td><code>fa-shield</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-rocket</code></td>
+					<td><code>fa-chevron-sign-right</code></td>
+					<td><code>fa-html5</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-unlock-alt</code></td>
+					<td><code>fa-ellipsis-vertical</code></td>
+					<td><code>fa-ticket</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-level-up</code></td>
+					<td><code>fa-edit-sign </code></td>
+					<td><code>fa-compass</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-expand</code></td>
+					<td><code>fa-usd</code></td>
+					<td><code>fa-cny</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-file</code></td>
+					<td><code>fa-sort-by-alphabet-alt</code></td>
+					<td><code>fa-sort-by-order</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-thumbs-down</code></td>
+					<td><code>fa-xing</code></td>
+					<td><code>fa-dropbox</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-flickr</code></td>
+					<td><code>fa-bitbucket-sign</code></td>
+					<td><code>fa-long-arrow-down</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-long-arrow-right</code></td>
+					<td><code>fa-android</code></td>
+					<td><code>fa-skype</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-female</code></td>
+					<td><code>fa-sun</code></td>
+					<td><code>fa-bug</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-renren</code></td>
+					<td><code>fa-music</code></td>
+					<td><code>fa-heart</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-user</code></td>
+					<td><code>fa-th</code></td>
+					<td><code>fa-remove</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-off</code></td>
+					<td><code>fa-trash</code></td>
+					<td><code>fa-time</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-download</code></td>
+					<td><code>fa-play-circle</code></td>
+					<td><code>fa-list-alt</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-headphones</code></td>
+					<td><code>fa-volume-up</code></td>
+					<td><code>fa-tag</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-bookmark</code></td>
+					<td><code>fa-font</code></td>
+					<td><code>fa-text-height</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-align-center</code></td>
+					<td><code>fa-list</code></td>
+					<td><code>fa-facetime-video</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-map-marker</code></td>
+					<td><code>fa-edit</code></td>
+					<td><code>fa-move</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-backward</code></td>
+					<td><code>fa-stop</code></td>
+					<td><code>fa-step-forward</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-chevron-right</code></td>
+					<td><code>fa-remove-sign</code></td>
+					<td><code>fa-info-sign</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-ok-circle</code></td>
+					<td><code>fa-arrow-right</code></td>
+					<td><code>fa-share-alt</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-plus</code></td>
+					<td><code>fa-exclamation-sign</code></td>
+					<td><code>fa-fire</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-warning-sign</code></td>
+					<td><code>fa-random</code></td>
+					<td><code>fa-chevron-up</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-shopping-cart</code></td>
+					<td><code>fa-resize-vertical</code></td>
+					<td><code>fa-twitter-sign</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-key</code></td>
+					<td><code>fa-thumbs-up-alt</code></td>
+					<td><code>fa-heart-empty</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-pushpin</code></td>
+					<td><code>fa-trophy</code></td>
+					<td><code>fa-lemon</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-bookmark-empty</code></td>
+					<td><code>fa-facebook</code></td>
+					<td><code>fa-credit-card</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-bullhorn</code></td>
+					<td><code>fa-hand-right</code></td>
+					<td><code>fa-hand-down</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-circle-arrow-up</code></td>
+					<td><code>fa-wrench</code></td>
+					<td><code>fa-briefcase</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-link</code></td>
+					<td><code>fa-cut</code></td>
+					<td><code>fa-save</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-list-ul</code></td>
+					<td><code>fa-underline</code></td>
+					<td><code>fa-truck</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-google-plus-sign</code></td>
+					<td><code>fa-caret-down</code></td>
+					<td><code>fa-caret-right</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-sort-down</code></td>
+					<td><code>fa-linkedin</code></td>
+					<td><code>fa-dashboard</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-bolt</code></td>
+					<td><code>fa-paste</code></td>
+					<td><code>fa-cloud-download</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-stethoscope</code></td>
+					<td><code>fa-coffee</code></td>
+					<td><code>fa-building</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-medkit</code></td>
+					<td><code>fa-h-sign</code></td>
+					<td><code>fa-double-angle-right</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-angle-left</code></td>
+					<td><code>fa-angle-down</code></td>
+					<td><code>fa-tablet</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-quote-left</code></td>
+					<td><code>fa-circle</code></td>
+					<td><code>fa-folder-close-alt</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-collapse-alt</code></td>
+					<td><code>fa-meh</code></td>
+					<td><code>fa-flag-alt</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-code</code></td>
+					<td><code>fa-star-half-empty</code></td>
+					<td><code>fa-code-fork</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-info</code></td>
+					<td><code>fa-subscript</code></td>
+					<td><code>fa-microphone</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-calendar-empty</code></td>
+					<td><code>fa-maxcdn</code></td>
+					<td><code>fa-chevron-sign-up</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-css3</code></td>
+					<td><code>fa-bullseye</code></td>
+					<td><code>fa-rss-sign</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-minus-sign-alt</code></td>
+					<td><code>fa-level-down</code></td>
+					<td><code>fa-external-link-sign</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-collapse</code></td>
+					<td><code>fa-eur</code></td>
+					<td><code>fa-inr</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-krw</code></td>
+					<td><code>fa-file-text</code></td>
+					<td><code>fa-sort-by-attributes</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-sort-by-order-alt</code></td>
+					<td><code>fa-youtube-sign</code></td>
+					<td><code>fa-xing-sign</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-stackexchange</code></td>
+					<td><code>fa-adn</code></td>
+					<td><code>fa-tumblr</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-long-arrow-up</code></td>
+					<td><code>fa-apple</code></td>
+					<td><code>fa-linux</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-foursquare</code></td>
+					<td><code>fa-male</code></td>
+					<td><code>fa-moon</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-vk</code></td>
+					<td><code>fa-search</code></td>
+					<td><code>fa-star</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-film</code></td>
+					<td><code>fa-th-list</code></td>
+					<td><code>fa-zoom-in</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-signal</code></td>
+					<td><code>fa-home</code></td>
+					<td><code>fa-road</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-upload</code></td>
+					<td><code>fa-repeat</code></td>
+					<td><code>fa-lock</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-volume-off</code></td>
+					<td><code>fa-qrcode</code></td>
+					<td><code>fa-tags</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-print</code></td>
+					<td><code>fa-bold</code></td>
+					<td><code>fa-text-width</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-align-right</code></td>
+					<td><code>fa-indent-left</code></td>
+					<td><code>fa-picture</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-adjust</code></td>
+					<td><code>fa-share</code></td>
+					<td><code>fa-step-backward</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-play</code></td>
+					<td><code>fa-forward</code></td>
+					<td><code>fa-eject</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-plus-sign</code></td>
+					<td><code>fa-ok-sign</code></td>
+					<td><code>fa-screenshot</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-ban-circle</code></td>
+					<td><code>fa-arrow-up</code></td>
+					<td><code>fa-resize-full</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-minus</code></td>
+					<td><code>fa-gift</code></td>
+					<td><code>fa-eye-open</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-plane</code></td>
+					<td><code>fa-comment</code></td>
+					<td><code>fa-chevron-down</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-folder-close</code></td>
+					<td><code>fa-resize-horizontal</code></td>
+					<td><code>fa-facebook-sign</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-cogs</code></td>
+					<td><code>fa-thumbs-down-alt</code></td>
+					<td><code>fa-signout</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-external-link</code></td>
+					<td><code>fa-github-sign</code></td>
+					<td><code>fa-phone</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-phone-sign</code></td>
+					<td><code>fa-github</code></td>
+					<td><code>fa-rss</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-bell</code></td>
+					<td><code>fa-hand-left</code></td>
+					<td><code>fa-circle-arrow-left</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-circle-arrow-down</code></td>
+					<td><code>fa-tasks</code></td>
+					<td><code>fa-fullscreen</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-cloud</code></td>
+					<td><code>fa-copy</code></td>
+					<td><code>fa-sign-blank</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-list-ol</code></td>
+					<td><code>fa-table</code></td>
+					<td><code>fa-pinterest</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-google-plus</code></td>
+					<td><code>fa-caret-up</code></td>
+					<td><code>fa-columns</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-sort-up</code></td>
+					<td><code>fa-undo</code></td>
+					<td><code>fa-comment-alt</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-sitemap</code></td>
+					<td><code>fa-lightbulb</code></td>
+					<td><code>fa-cloud-upload</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-suitcase</code></td>
+					<td><code>fa-food</code></td>
+					<td><code>fa-hospital</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-fighter-jet</code></td>
+					<td><code>fa-plus-sign-alt</code></td>
+					<td><code>fa-double-angle-up</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-angle-right</code></td>
+					<td><code>fa-desktop</code></td>
+					<td><code>fa-mobile-phone</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-quote-right</code></td>
+					<td><code>fa-reply</code></td>
+					<td><code>fa-folder-open-alt</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-smile</code></td>
+					<td><code>fa-gamepad</code></td>
+					<td><code>fa-flag-checkered</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-reply-all</code></td>
+					<td><code>fa-location-arrow</code></td>
+					<td><code>fa-unlink</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-exclamation</code></td>
+					<td><code>fa-eraser</code></td>
+					<td><code>fa-microphone-off</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-fire-extinguisher</code></td>
+					<td><code>fa-chevron-sign-left</code></td>
+					<td><code>fa-chevron-sign-down</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-anchor</code></td>
+					<td><code>fa-ellipsis-horizontal</code></td>
+					<td><code>fa-play-sign</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-check-minus</code></td>
+					<td><code>fa-check-sign</code></td>
+					<td><code>fa-share-sign</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-collapse-top</code></td>
+					<td><code>fa-gbp</code></td>
+					<td><code>fa-jpy</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-btc</code></td>
+					<td><code>fa-sort-by-alphabet</code></td>
+					<td><code>fa-sort-by-attributes-alt</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-thumbs-up</code></td>
+					<td><code>fa-youtube</code></td>
+					<td><code>fa-youtube-play</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-instagram</code></td>
+					<td><code>fa-bitbucket</code></td>
+					<td><code>fa-tumblr-sign</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-long-arrow-left</code></td>
+					<td><code>fa-windows</code></td>
+					<td><code>fa-dribbble</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-trello</code></td>
+					<td><code>fa-gittip</code></td>
+					<td><code>fa-archive</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-rub</code></td>
+					<td><code>fa-pagelines</code></td>
+					<td><code>fa-arrow-circle-o-left</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-dot-circle-o</code></td>
+					<td><code>fa-try</code></td>
+					<td><code>fa-ruble</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-stack-exchange</code></td>
+					<td><code>fa-caret-square-o-left</code></td>
+					<td><code>fa-wheelchair</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-turkish-lira</code></td>
+					<td><code>fa-rouble</code></td>
+					<td><code>fa-arrow-circle-o-right</code></td>
+				</tr>
+				<tr>
+					<td><code>fa-toggle-left</code></td>
+					<td><code>fa-vimeo-square</code></td>
+					<td><code>fa-plus-square-o</code></td>
+				</tr>
+			</table>
+      	</div>
+
+      	<div class="span6">
+      		<h3>Grids</h3>
+      		<p>Like said before, we've incorporated <strong>Twitter Bootstrap's</strong> grid system
+      		into our theme. To use it's capabilities simply type the <code>container</code>, <code>row</code>
+			and appropiate <code>grids</code>. We support 12-column responsive (fluid) grid system. More informations you can find on the website <a href="http://getbootstrap.com/">http://getbootstrap.com/</a>.</p>
+      		
+      		<h3>Defining grids</h3>
+      		<p>Below you can view a sample grid</p>
+<pre>
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;col-md-6&quot;&gt;first column&lt;/div&gt;
+    &lt;div class=&quot;col-md-6&quot;&gt;second column&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+      	</div>
+      	
+      </div>
+		<hr>
+      <div class="row">
+      	<div class="span12">
+	      	<h3 id="disclaimer">Disclaimer &amp; authoring info</h3>
+	      	<hr>
+	      	<h4>Stock images used in our template</h4>
+	      	<p>We do not owe any rights to sample images embedded in our theme. Those belong to it's authors and were used just for previewing purposes.</p>
+	      	<hr>
+	      	<h4>Third-party javascript plugins &amp solutions</h4>
+	      	<p><strong>Bootstrap v3.0</strong> - During template development we used  <strong>Twitter Bootstrap's</strong> grid system, the Apache License v2.0 <a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a>.</p>
+	      	<p><strong>HTML5 Boilerplate</strong> - combined with bootstrap's grid system, we've used html5boilerplate.</p>
+			<p><strong>jQuery djax - v0.122</strong> - <a href="http://beezee.github.com/djax.html">http://beezee.github.com/djax.html</a>, Copyright (c) 2012 Brian Zeligson; Released under the MIT license: <a href="http://www.opensource.org/licenses/mit-license.php">http://www.opensource.org/licenses/mit-license.php.</a></p>
+			<p><strong>Bootstrap transition.js v3.0.0</strong> - <a href="http://twbs.github.com/bootstrap/javascript.html#carousel">http://twbs.github.com/bootstrap/javascript.html#transitions</a>, Copyright (c) 2012 Twitter; Licensed under the Apache License: <a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a>.</p>
+			<p><strong>Bootstrap carousel.js v3.0.0</strong> - <a href="http://twbs.github.com/bootstrap/javascript.html#transitions">http://twbs.github.com/bootstrap/javascript.html#transitions</a>, Copyright (c) 2013 Twitter; Licensed under the Apache License: <a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a>.</p>
+			<p><strong>jQuery Transit</strong> - <a href="http://ricostacruz.com/jquery.transit">http://ricostacruz.com/jquery.transit</a>, Copyright (c) 2011-2012 Rico Sta. Cruz; Licensed MIT.</p>
+			<p><strong>jQuery Cycle Plugin</strong> - <a href="http://nicescroll.areaaperta.com/">http://nicescroll.areaaperta.com/</a>, Copyright (c) 2013 MIT <a href="http://jquery.malsup.com/license.html">http://jquery.malsup.com/license.html</a>.</p>
+			<p><strong>MaxImage - v2.0</strong> - <a href="http://www.aaronvanderzwan.com/maximage/2.0/">http://www.aaronvanderzwan.com/maximage/2.0/</a>, Copyright (c) 2007-2012 Aaron Vanderzwan; Dual licensed under the MIT and GPL licenses.</p>
+			<p><strong>jQuery custom scrollbars plugin  - v2.8.2</strong> - <a href="http://manos.malihu.gr/jquery-custom-content-scroller">http://manos.malihu.gr/jquery-custom-content-scroller</a>, Copyright (c) 2010-2013 Manos Malihutsakis; Dual licensed under the MIT and GPL licenses.</p>
+			<p><strong>Colorbox - v1.4.32</strong> - <a href="http://www.jacklmoore.com/colorbox">http://www.jacklmoore.com/colorbox</a>, Copyright (c) 2013 Jack Moore; Licensed MIT: <a href="http://www.opensource.org/licenses/mit-license.php">http://www.opensource.org/licenses/mit-license.php</a>.</p>
+			<p><strong>jQuery OwlCarousel - v1.31</strong> - <a href="http://www.owlgraphic.com/owlcarousel/">http://www.owlgraphic.com/owlcarousel/</a>, Copyright (c) 2013 Bartosz Wojciechowski; Licensed under MIT.</p>
+			<p><strong>Modernizr - v2.6.2 </strong> - <a href="http://modernizr.com/download/#-fontface-backgroundsize-borderimage-borderradius-boxshadow-flexbox-hsla-multiplebgs-opacity-rgba-textshadow-cssanimations-csscolumns-generatedcontent-cssgradients-cssreflections-csstransforms-csstransforms3d-csstransitions-applicationcache-canvas-canvastext-draganddrop-hashchange-history-audio-video-indexeddb-input-inputtypes-localstorage-postmessage-sessionstorage-websockets-websqldatabase-webworkers-geolocation-inlinesvg-smil-svg-svgclippaths-touch-webgl-shiv-mq-cssclasses-addtest-prefixed-teststyles-testprop-testallprops-hasevent-prefixes-domprefixes-load">http://modernizr.com/</a>; Licensed MIT & BSD.</p>
+			
+		</div>
+      </div>
+
+      <footer>
+      	<hr>
+        <p>&copy; powered-by yosoftware.com 2013</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+	</body>
+</html>

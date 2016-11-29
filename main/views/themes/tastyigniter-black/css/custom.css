@@ -1,0 +1,43 @@
+body {
+	background-color: #fff !important;
+	overflow: initial !important;
+	direction: rtl !important;
+}
+
+.account-wrapper {
+	display: inline-block !important;
+	width: 35% !important;
+}
+
+#category-box-affix {
+	top: 0px !important;
+}
+
+.navbar .main-nav > li { 
+	width: 17.5%;
+}
+
+.navbar .main-nav.white-nav .subnav::before {
+	display: none !important;
+}
+
+#page-wrapper {
+	background-color: #fff;
+	margin-top: 120px;
+}
+
+.social-share {
+	display: none;
+}
+
+.splash .social-share {
+	display: block;
+}
+
+.social-share.top, .navbar {
+	z-index: 1000000;
+}
+
+.slides {
+	background-color: #fff !important;
+}
